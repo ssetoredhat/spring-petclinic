@@ -17,4 +17,4 @@ RUN ./mvnw dependency:resolve
 COPY src ./src
 
 # When the container starts, run the Spring Boot app using Maven.
-CMD \["./mvnw", "spring-boot:run"\]
+CMD ["./mvnw", "spring-boot:run"]
